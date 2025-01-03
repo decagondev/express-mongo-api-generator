@@ -20,14 +20,16 @@ CLI tool that generates single-file Express.js applications with MongoDB integra
 ## Installation ⚙️
 
 ```bash
-pip install langchain openai
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 export OPENAI_API_KEY='your-api-key'
 ```
 
 ## Usage 💻
 
 ```bash
-python app.py
+python generator.py
 ```
 
 Follow the prompts to specify:
